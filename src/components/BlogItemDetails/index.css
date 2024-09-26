@@ -1,0 +1,50 @@
+.blog-detail-container {
+  width: 80%;
+  text-align: center;
+}
+
+.blog-detail-heading {
+  font-family: 'Roboto';
+  font-size: 26px;
+}
+
+.avatar-container {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.avatar {
+  width: 42px;
+  height: 42px;
+  border-radius: 100%;
+}
+
+.avatar-name {
+  font-family: 'Roboto';
+  font-size: 16px;
+  color: #8e8e8e;
+  margin-left: 10px;
+  font-weight: 500;
+}
+
+.blog-image {
+  border-radius: 10px;
+  max-height: 400px;
+  width: 100%;
+}
+
+.blog-description {
+  color: #2f4f4f;
+  font-size: 12px;
+  font-family: 'Roboto';
+  font-weight: 500;
+  text-align: left;
+  line-height: 1.4em;
+}
+
+@media screen and (min-width: 768px) {
+  .blog-description {
+    font-size: 18px;
+  }
+}
